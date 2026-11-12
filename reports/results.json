@@ -1,0 +1,3034 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\NewQAPL\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "C:\\NewQAPL\\playwright.config.ts",
+    "rootDir": "C:/NewQAPL/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/NewQAPL/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/NewQAPL/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "*.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/NewQAPL/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/NewQAPL/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "*.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/NewQAPL/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/NewQAPL/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "*.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/NewQAPL/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "C:/NewQAPL/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "*.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/NewQAPL/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "smoke",
+        "name": "smoke",
+        "testDir": "C:/NewQAPL/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "*.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\NewQAPL\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "name": "chromium",
+        "testDir": "C:\\NewQAPL\\tests",
+        "snapshotDir": "C:\\NewQAPL\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          "*.spec.ts"
+        ],
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://www.saucedemo.com/",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-first-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\NewQAPL\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "name": "firefox",
+        "testDir": "C:\\NewQAPL\\tests",
+        "snapshotDir": "C:\\NewQAPL\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          "*.spec.ts"
+        ],
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://www.saucedemo.com/",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-first-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0",
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "firefox"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "firefox"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\NewQAPL\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "name": "webkit",
+        "testDir": "C:\\NewQAPL\\tests",
+        "snapshotDir": "C:\\NewQAPL\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          "*.spec.ts"
+        ],
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://www.saucedemo.com/",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-first-failure",
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+          "screen": {
+            "width": 1792,
+            "height": 1120
+          },
+          "deviceScaleFactor": 2,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\NewQAPL\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "name": "Mobile Chrome",
+        "testDir": "C:\\NewQAPL\\tests",
+        "snapshotDir": "C:\\NewQAPL\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          "*.spec.ts"
+        ],
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://www.saucedemo.com/",
+          "viewport": {
+            "width": 393,
+            "height": 727
+          },
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-first-failure",
+          "userAgent": "Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Mobile Safari/537.36",
+          "screen": {
+            "width": 393,
+            "height": 851
+          },
+          "deviceScaleFactor": 2.75,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "Mobile Chrome"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\NewQAPL\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "name": "smoke",
+        "testDir": "C:\\NewQAPL\\tests",
+        "snapshotDir": "C:\\NewQAPL\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          "*.spec.ts"
+        ],
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://www.saucedemo.com/",
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-first-failure",
+          "browserName": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "smoke"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ],
+      [
+        "C:\\NewQAPL\\node_modules\\@testomatio\\reporter\\lib\\adapter\\playwright.js",
+        {
+          "apiKey": "tstmt_YrUuqOPWGc3jvWKJliRDTnHLBODNbkbDxg1793296368"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "aserction.spec.ts",
+      "file": "aserction.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Screenshot картки товару",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5618,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "rgb(61, 220, 145)\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:46.229Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0b93bd043c8484d56260-de8036ccaee09dc7d465",
+          "file": "aserction.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "Screenshot картки товару",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 12648,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "rgb(61, 220, 145)\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:56.919Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0b93bd043c8484d56260-8c2c04e313d544ed4fa5",
+          "file": "aserction.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "Screenshot картки товару",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 5558,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "rgb(61, 220, 145)\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:21.561Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0b93bd043c8484d56260-9521d618599a6ffb74c8",
+          "file": "aserction.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "Screenshot картки товару",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 19,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2018,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "rgb(61, 220, 145)\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:32.920Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0b93bd043c8484d56260-7fc37a0503b1845da94d",
+          "file": "aserction.spec.ts",
+          "line": 2,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "codegen.spec.ts",
+      "file": "codegen.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "успішна авторизація стандартного користувача",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 5585,
+                  "error": {
+                    "message": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    3) <button id=\"add-to-cart-sauce-labs-backpack\" name=\"add-to-cart-sauce-labs-backpack\" data-test=\"add-to-cart-sauce-labs-backpack\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-backpack\"]')\n    4) <button id=\"add-to-cart-sauce-labs-bike-light\" name=\"add-to-cart-sauce-labs-bike-light\" data-test=\"add-to-cart-sauce-labs-bike-light\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bike-light\"]')\n    5) <button id=\"add-to-cart-sauce-labs-bolt-t-shirt\" name=\"add-to-cart-sauce-labs-bolt-t-shirt\" data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]')\n    6) <button id=\"add-to-cart-sauce-labs-fleece-jacket\" name=\"add-to-cart-sauce-labs-fleece-jacket\" class=\"btn btn_primary btn_small btn_inventory \" data-test=\"add-to-cart-sauce-labs-fleece-jacket\">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]')\n    7) <button id=\"add-to-cart-sauce-labs-onesie\" name=\"add-to-cart-sauce-labs-onesie\" data-test=\"add-to-cart-sauce-labs-onesie\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-onesie\"]')\n    8) <button class=\"btn btn_primary btn_small btn_inventory \" id=\"add-to-cart-test.allthethings()-t-shirt-(red)\" name=\"add-to-cart-test.allthethings()-t-shirt-(red)\" data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\">Add to cart</button> aka locator('[data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\"]')\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n",
+                    "stack": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    3) <button id=\"add-to-cart-sauce-labs-backpack\" name=\"add-to-cart-sauce-labs-backpack\" data-test=\"add-to-cart-sauce-labs-backpack\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-backpack\"]')\n    4) <button id=\"add-to-cart-sauce-labs-bike-light\" name=\"add-to-cart-sauce-labs-bike-light\" data-test=\"add-to-cart-sauce-labs-bike-light\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bike-light\"]')\n    5) <button id=\"add-to-cart-sauce-labs-bolt-t-shirt\" name=\"add-to-cart-sauce-labs-bolt-t-shirt\" data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]')\n    6) <button id=\"add-to-cart-sauce-labs-fleece-jacket\" name=\"add-to-cart-sauce-labs-fleece-jacket\" class=\"btn btn_primary btn_small btn_inventory \" data-test=\"add-to-cart-sauce-labs-fleece-jacket\">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]')\n    7) <button id=\"add-to-cart-sauce-labs-onesie\" name=\"add-to-cart-sauce-labs-onesie\" data-test=\"add-to-cart-sauce-labs-onesie\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-onesie\"]')\n    8) <button class=\"btn btn_primary btn_small btn_inventory \" id=\"add-to-cart-test.allthethings()-t-shirt-(red)\" name=\"add-to-cart-test.allthethings()-t-shirt-(red)\" data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\">Add to cart</button> aka locator('[data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\"]')\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n\n    at C:\\NewQAPL\\tests\\codegen.spec.ts:24:32",
+                    "location": {
+                      "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                      "column": 32,
+                      "line": 24
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 22 |\u001b[39m   console\u001b[33m.\u001b[39mlog(proguct\u001b[33m.\u001b[39mtextContent())\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"button\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_list  .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_item > .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                        "column": 32,
+                        "line": 24
+                      },
+                      "message": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    3) <button id=\"add-to-cart-sauce-labs-backpack\" name=\"add-to-cart-sauce-labs-backpack\" data-test=\"add-to-cart-sauce-labs-backpack\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-backpack\"]')\n    4) <button id=\"add-to-cart-sauce-labs-bike-light\" name=\"add-to-cart-sauce-labs-bike-light\" data-test=\"add-to-cart-sauce-labs-bike-light\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bike-light\"]')\n    5) <button id=\"add-to-cart-sauce-labs-bolt-t-shirt\" name=\"add-to-cart-sauce-labs-bolt-t-shirt\" data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]')\n    6) <button id=\"add-to-cart-sauce-labs-fleece-jacket\" name=\"add-to-cart-sauce-labs-fleece-jacket\" class=\"btn btn_primary btn_small btn_inventory \" data-test=\"add-to-cart-sauce-labs-fleece-jacket\">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]')\n    7) <button id=\"add-to-cart-sauce-labs-onesie\" name=\"add-to-cart-sauce-labs-onesie\" data-test=\"add-to-cart-sauce-labs-onesie\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-onesie\"]')\n    8) <button class=\"btn btn_primary btn_small btn_inventory \" id=\"add-to-cart-test.allthethings()-t-shirt-(red)\" name=\"add-to-cart-test.allthethings()-t-shirt-(red)\" data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\">Add to cart</button> aka locator('[data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\"]')\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n\n\n\u001b[0m \u001b[90m 22 |\u001b[39m   console\u001b[33m.\u001b[39mlog(proguct\u001b[33m.\u001b[39mtextContent())\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"button\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_list  .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_item > .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\NewQAPL\\tests\\codegen.spec.ts:24:32\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Promise {\n  \u001b[36m<pending>\u001b[39m,\n  [\u001b[32mSymbol(async_id_symbol)\u001b[39m]: \u001b[33m9743\u001b[39m,\n  [\u001b[32mSymbol(trigger_async_id_symbol)\u001b[39m]: \u001b[33m9334\u001b[39m,\n  [\u001b[32mSymbol(kResourceStore)\u001b[39m]: \u001b[90mundefined\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:46.231Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                    "column": 32,
+                    "line": 24
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "7075dcee4bf043f933b7-13fb1751396fb911df66",
+          "file": "codegen.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "успішна авторизація стандартного користувача",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 17049,
+                  "error": {
+                    "message": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    ...\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n",
+                    "stack": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    ...\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n\n    at C:\\NewQAPL\\tests\\codegen.spec.ts:24:32",
+                    "location": {
+                      "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                      "column": 32,
+                      "line": 24
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 22 |\u001b[39m   console\u001b[33m.\u001b[39mlog(proguct\u001b[33m.\u001b[39mtextContent())\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"button\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_list  .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_item > .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                        "column": 32,
+                        "line": 24
+                      },
+                      "message": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    ...\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n\n\n\u001b[0m \u001b[90m 22 |\u001b[39m   console\u001b[33m.\u001b[39mlog(proguct\u001b[33m.\u001b[39mtextContent())\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"button\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_list  .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_item > .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\NewQAPL\\tests\\codegen.spec.ts:24:32\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Promise {\n  \u001b[36m<pending>\u001b[39m,\n  [\u001b[32mSymbol(async_id_symbol)\u001b[39m]: \u001b[33m12917\u001b[39m,\n  [\u001b[32mSymbol(trigger_async_id_symbol)\u001b[39m]: \u001b[33m12326\u001b[39m,\n  [\u001b[32mSymbol(kResourceStore)\u001b[39m]: \u001b[90mundefined\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:56.501Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-firefox\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-firefox\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-firefox\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                    "column": 32,
+                    "line": 24
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "7075dcee4bf043f933b7-6da98524dad7c08ff63b",
+          "file": "codegen.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "успішна авторизація стандартного користувача",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 4930,
+                  "error": {
+                    "message": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    3) <button id=\"add-to-cart-sauce-labs-backpack\" name=\"add-to-cart-sauce-labs-backpack\" data-test=\"add-to-cart-sauce-labs-backpack\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-backpack\"]')\n    4) <button id=\"add-to-cart-sauce-labs-bike-light\" name=\"add-to-cart-sauce-labs-bike-light\" data-test=\"add-to-cart-sauce-labs-bike-light\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bike-light\"]')\n    5) <button id=\"add-to-cart-sauce-labs-bolt-t-shirt\" name=\"add-to-cart-sauce-labs-bolt-t-shirt\" data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]')\n    6) <button id=\"add-to-cart-sauce-labs-fleece-jacket\" name=\"add-to-cart-sauce-labs-fleece-jacket\" class=\"btn btn_primary btn_small btn_inventory \" data-test=\"add-to-cart-sauce-labs-fleece-jacket\">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]')\n    7) <button id=\"add-to-cart-sauce-labs-onesie\" name=\"add-to-cart-sauce-labs-onesie\" data-test=\"add-to-cart-sauce-labs-onesie\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-onesie\"]')\n    8) <button class=\"btn btn_primary btn_small btn_inventory \" id=\"add-to-cart-test.allthethings()-t-shirt-(red)\" name=\"add-to-cart-test.allthethings()-t-shirt-(red)\" data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\">Add to cart</button> aka locator('[data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\"]')\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n",
+                    "stack": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    3) <button id=\"add-to-cart-sauce-labs-backpack\" name=\"add-to-cart-sauce-labs-backpack\" data-test=\"add-to-cart-sauce-labs-backpack\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-backpack\"]')\n    4) <button id=\"add-to-cart-sauce-labs-bike-light\" name=\"add-to-cart-sauce-labs-bike-light\" data-test=\"add-to-cart-sauce-labs-bike-light\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bike-light\"]')\n    5) <button id=\"add-to-cart-sauce-labs-bolt-t-shirt\" name=\"add-to-cart-sauce-labs-bolt-t-shirt\" data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]')\n    6) <button id=\"add-to-cart-sauce-labs-fleece-jacket\" name=\"add-to-cart-sauce-labs-fleece-jacket\" class=\"btn btn_primary btn_small btn_inventory \" data-test=\"add-to-cart-sauce-labs-fleece-jacket\">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]')\n    7) <button id=\"add-to-cart-sauce-labs-onesie\" name=\"add-to-cart-sauce-labs-onesie\" data-test=\"add-to-cart-sauce-labs-onesie\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-onesie\"]')\n    8) <button class=\"btn btn_primary btn_small btn_inventory \" id=\"add-to-cart-test.allthethings()-t-shirt-(red)\" name=\"add-to-cart-test.allthethings()-t-shirt-(red)\" data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\">Add to cart</button> aka locator('[data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\"]')\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n\n    at C:\\NewQAPL\\tests\\codegen.spec.ts:24:32",
+                    "location": {
+                      "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                      "column": 32,
+                      "line": 24
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 22 |\u001b[39m   console\u001b[33m.\u001b[39mlog(proguct\u001b[33m.\u001b[39mtextContent())\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"button\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_list  .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_item > .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                        "column": 32,
+                        "line": 24
+                      },
+                      "message": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    3) <button id=\"add-to-cart-sauce-labs-backpack\" name=\"add-to-cart-sauce-labs-backpack\" data-test=\"add-to-cart-sauce-labs-backpack\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-backpack\"]')\n    4) <button id=\"add-to-cart-sauce-labs-bike-light\" name=\"add-to-cart-sauce-labs-bike-light\" data-test=\"add-to-cart-sauce-labs-bike-light\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bike-light\"]')\n    5) <button id=\"add-to-cart-sauce-labs-bolt-t-shirt\" name=\"add-to-cart-sauce-labs-bolt-t-shirt\" data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]')\n    6) <button id=\"add-to-cart-sauce-labs-fleece-jacket\" name=\"add-to-cart-sauce-labs-fleece-jacket\" class=\"btn btn_primary btn_small btn_inventory \" data-test=\"add-to-cart-sauce-labs-fleece-jacket\">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]')\n    7) <button id=\"add-to-cart-sauce-labs-onesie\" name=\"add-to-cart-sauce-labs-onesie\" data-test=\"add-to-cart-sauce-labs-onesie\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-onesie\"]')\n    8) <button class=\"btn btn_primary btn_small btn_inventory \" id=\"add-to-cart-test.allthethings()-t-shirt-(red)\" name=\"add-to-cart-test.allthethings()-t-shirt-(red)\" data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\">Add to cart</button> aka locator('[data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\"]')\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n\n\n\u001b[0m \u001b[90m 22 |\u001b[39m   console\u001b[33m.\u001b[39mlog(proguct\u001b[33m.\u001b[39mtextContent())\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"button\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_list  .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_item > .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\NewQAPL\\tests\\codegen.spec.ts:24:32\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Promise {\n  \u001b[36m<pending>\u001b[39m,\n  [\u001b[32mSymbol(async_id_symbol)\u001b[39m]: \u001b[33m12078\u001b[39m,\n  [\u001b[32mSymbol(trigger_async_id_symbol)\u001b[39m]: \u001b[33m11643\u001b[39m,\n  [\u001b[32mSymbol(kResourceStore)\u001b[39m]: \u001b[90mundefined\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:20.945Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-webkit\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-webkit\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-webkit\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                    "column": 32,
+                    "line": 24
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "7075dcee4bf043f933b7-6a229ec872b79690df69",
+          "file": "codegen.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "успішна авторизація стандартного користувача",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 20,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 1999,
+                  "error": {
+                    "message": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    3) <button id=\"add-to-cart-sauce-labs-backpack\" name=\"add-to-cart-sauce-labs-backpack\" data-test=\"add-to-cart-sauce-labs-backpack\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-backpack\"]')\n    4) <button id=\"add-to-cart-sauce-labs-bike-light\" name=\"add-to-cart-sauce-labs-bike-light\" data-test=\"add-to-cart-sauce-labs-bike-light\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bike-light\"]')\n    5) <button id=\"add-to-cart-sauce-labs-bolt-t-shirt\" name=\"add-to-cart-sauce-labs-bolt-t-shirt\" data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]')\n    6) <button id=\"add-to-cart-sauce-labs-fleece-jacket\" name=\"add-to-cart-sauce-labs-fleece-jacket\" class=\"btn btn_primary btn_small btn_inventory \" data-test=\"add-to-cart-sauce-labs-fleece-jacket\">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]')\n    7) <button id=\"add-to-cart-sauce-labs-onesie\" name=\"add-to-cart-sauce-labs-onesie\" data-test=\"add-to-cart-sauce-labs-onesie\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-onesie\"]')\n    8) <button class=\"btn btn_primary btn_small btn_inventory \" id=\"add-to-cart-test.allthethings()-t-shirt-(red)\" name=\"add-to-cart-test.allthethings()-t-shirt-(red)\" data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\">Add to cart</button> aka locator('[data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\"]')\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n",
+                    "stack": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    3) <button id=\"add-to-cart-sauce-labs-backpack\" name=\"add-to-cart-sauce-labs-backpack\" data-test=\"add-to-cart-sauce-labs-backpack\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-backpack\"]')\n    4) <button id=\"add-to-cart-sauce-labs-bike-light\" name=\"add-to-cart-sauce-labs-bike-light\" data-test=\"add-to-cart-sauce-labs-bike-light\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bike-light\"]')\n    5) <button id=\"add-to-cart-sauce-labs-bolt-t-shirt\" name=\"add-to-cart-sauce-labs-bolt-t-shirt\" data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]')\n    6) <button id=\"add-to-cart-sauce-labs-fleece-jacket\" name=\"add-to-cart-sauce-labs-fleece-jacket\" class=\"btn btn_primary btn_small btn_inventory \" data-test=\"add-to-cart-sauce-labs-fleece-jacket\">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]')\n    7) <button id=\"add-to-cart-sauce-labs-onesie\" name=\"add-to-cart-sauce-labs-onesie\" data-test=\"add-to-cart-sauce-labs-onesie\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-onesie\"]')\n    8) <button class=\"btn btn_primary btn_small btn_inventory \" id=\"add-to-cart-test.allthethings()-t-shirt-(red)\" name=\"add-to-cart-test.allthethings()-t-shirt-(red)\" data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\">Add to cart</button> aka locator('[data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\"]')\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n\n    at C:\\NewQAPL\\tests\\codegen.spec.ts:24:32",
+                    "location": {
+                      "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                      "column": 32,
+                      "line": 24
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 22 |\u001b[39m   console\u001b[33m.\u001b[39mlog(proguct\u001b[33m.\u001b[39mtextContent())\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"button\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_list  .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_item > .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                        "column": 32,
+                        "line": 24
+                      },
+                      "message": "Error: locator.click: Error: strict mode violation: locator('button') resolved to 8 elements:\n    1) <button type=\"button\" id=\"react-burger-menu-btn\">Open Menu</button> aka getByRole('button', { name: 'Open Menu' })\n    2) <button type=\"button\" tabindex=\"-1\" id=\"react-burger-cross-btn\">Close Menu</button> aka getByText('Close Menu')\n    3) <button id=\"add-to-cart-sauce-labs-backpack\" name=\"add-to-cart-sauce-labs-backpack\" data-test=\"add-to-cart-sauce-labs-backpack\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-backpack\"]')\n    4) <button id=\"add-to-cart-sauce-labs-bike-light\" name=\"add-to-cart-sauce-labs-bike-light\" data-test=\"add-to-cart-sauce-labs-bike-light\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bike-light\"]')\n    5) <button id=\"add-to-cart-sauce-labs-bolt-t-shirt\" name=\"add-to-cart-sauce-labs-bolt-t-shirt\" data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]')\n    6) <button id=\"add-to-cart-sauce-labs-fleece-jacket\" name=\"add-to-cart-sauce-labs-fleece-jacket\" class=\"btn btn_primary btn_small btn_inventory \" data-test=\"add-to-cart-sauce-labs-fleece-jacket\">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]')\n    7) <button id=\"add-to-cart-sauce-labs-onesie\" name=\"add-to-cart-sauce-labs-onesie\" data-test=\"add-to-cart-sauce-labs-onesie\" class=\"btn btn_primary btn_small btn_inventory \">Add to cart</button> aka locator('[data-test=\"add-to-cart-sauce-labs-onesie\"]')\n    8) <button class=\"btn btn_primary btn_small btn_inventory \" id=\"add-to-cart-test.allthethings()-t-shirt-(red)\" name=\"add-to-cart-test.allthethings()-t-shirt-(red)\" data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\">Add to cart</button> aka locator('[data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\"]')\n\nCall log:\n\u001b[2m  - waiting for locator('button')\u001b[22m\n\n\n\u001b[0m \u001b[90m 22 |\u001b[39m   console\u001b[33m.\u001b[39mlog(proguct\u001b[33m.\u001b[39mtextContent())\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"button\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_list  .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\".inventory_item > .inventory_item_price\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\NewQAPL\\tests\\codegen.spec.ts:24:32\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Promise {\n  \u001b[36m<pending>\u001b[39m,\n  [\u001b[32mSymbol(async_id_symbol)\u001b[39m]: \u001b[33m9545\u001b[39m,\n  [\u001b[32mSymbol(trigger_async_id_symbol)\u001b[39m]: \u001b[33m9089\u001b[39m,\n  [\u001b[32mSymbol(kResourceStore)\u001b[39m]: \u001b[90mundefined\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:34.796Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-Mobile-Chrome\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-Mobile-Chrome\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-Mobile-Chrome\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\NewQAPL\\test-results\\codegen-успішна-авторизація-стандартного-користувача-Mobile-Chrome\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\NewQAPL\\tests\\codegen.spec.ts",
+                    "column": 32,
+                    "line": 24
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "7075dcee4bf043f933b7-509fddf551d580213ec5",
+          "file": "codegen.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "inventory.spec.ts",
+      "file": "inventory.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Додавання рюкзака до кошика",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5588,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "$29.99\n"
+                    },
+                    {
+                      "text": "\u001b[33m29.99\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:46.307Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "491382254a121adeeb47-1c51b647da5ed3430afb",
+          "file": "inventory.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "Перевірка ціни рюкзака",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 5177,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:46.231Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "491382254a121adeeb47-bb9c76c33da7fa111c26",
+          "file": "inventory.spec.ts",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "Додавання рюкзака до кошика",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6427,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "$29.99\n"
+                    },
+                    {
+                      "text": "\u001b[33m29.99\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:56.851Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "491382254a121adeeb47-4799687cbfb55942518b",
+          "file": "inventory.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "Перевірка ціни рюкзака",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 12132,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:57.851Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "491382254a121adeeb47-4b20358107389f715601",
+          "file": "inventory.spec.ts",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "Додавання рюкзака до кошика",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5087,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "$29.99\n"
+                    },
+                    {
+                      "text": "\u001b[33m29.99\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:22.554Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "491382254a121adeeb47-1013791d4963697f26d0",
+          "file": "inventory.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "Перевірка ціни рюкзака",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 4753,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:22.600Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "491382254a121adeeb47-c56b056be2b6e10caaac",
+          "file": "inventory.spec.ts",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "Додавання рюкзака до кошика",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 21,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1931,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "$29.99\n"
+                    },
+                    {
+                      "text": "\u001b[33m29.99\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:35.418Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "491382254a121adeeb47-6700a28704b7dabd1a42",
+          "file": "inventory.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "Перевірка ціни рюкзака",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 22,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 1919,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:36.088Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "491382254a121adeeb47-a6fc541ea486e2791cc1",
+          "file": "inventory.spec.ts",
+          "line": 31,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "login.spec.ts",
+      "file": "login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Smoke: успішна авторизація @smoke ",
+          "ok": true,
+          "tags": [
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 5327,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:46.197Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "41d3fd2474a19feb00a1-14ea85ae61965869f0b1",
+          "file": "login.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "Smoke: успішна авторизація @smoke ",
+          "ok": true,
+          "tags": [
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 11487,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:58.163Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "41d3fd2474a19feb00a1-3bcd9b4861314dc6f66d",
+          "file": "login.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "Smoke: успішна авторизація @smoke ",
+          "ok": true,
+          "tags": [
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3302,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:23.534Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "41d3fd2474a19feb00a1-7eb248602619c63a328e",
+          "file": "login.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "Smoke: успішна авторизація @smoke ",
+          "ok": true,
+          "tags": [
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 19,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1505,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:35.353Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "41d3fd2474a19feb00a1-185f6405464e0a77f7b6",
+          "file": "login.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "Smoke: успішна авторизація @smoke ",
+          "ok": true,
+          "tags": [
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "smoke",
+              "projectName": "smoke",
+              "results": [
+                {
+                  "workerIndex": 26,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 1050,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:42.663Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "41d3fd2474a19feb00a1-6168bb8a4eb76b2bd70f",
+          "file": "login.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "POM2.spec.ts",
+      "file": "POM2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login in POM",
+          "file": "POM2.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "POM Login @T6edd83b6",
+              "ok": true,
+              "tags": [
+                "T6edd83b6"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 5518,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T18:22:46.231Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "845ec06b58d2245b4b71-178ff94bee0f4f138c50",
+              "file": "POM2.spec.ts",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "POM Login @T6edd83b6",
+              "ok": true,
+              "tags": [
+                "T6edd83b6"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 10830,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T18:22:58.325Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "845ec06b58d2245b4b71-34ab501045c76a75d3e9",
+              "file": "POM2.spec.ts",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "POM Login @T6edd83b6",
+              "ok": true,
+              "tags": [
+                "T6edd83b6"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 3133,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T18:23:25.115Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "845ec06b58d2245b4b71-cb66dd5a4c8a6be32d33",
+              "file": "POM2.spec.ts",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "POM Login @T6edd83b6",
+              "ok": true,
+              "tags": [
+                "T6edd83b6"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 23,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1674,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T18:23:37.621Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "845ec06b58d2245b4b71-b9614295462784f30f4f",
+              "file": "POM2.spec.ts",
+              "line": 15,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "regres_test\\POM.spec.ts",
+      "file": "regres_test/POM.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "POM Login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 1897,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:51.832Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d79b93a8c074c1834487-274330158e3023120fb4",
+          "file": "regres_test/POM.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "POM Login error User",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1665,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:51.878Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d79b93a8c074c1834487-09671ab46147007f0915",
+          "file": "regres_test/POM.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "POM Login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7663,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:05.288Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d79b93a8c074c1834487-e091f0c04e98a1020d6e",
+          "file": "regres_test/POM.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "POM Login error User",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 2966,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:11.705Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d79b93a8c074c1834487-ea8b11ab92975bbcb87e",
+          "file": "regres_test/POM.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "POM Login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 18,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4396,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:28.134Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d79b93a8c074c1834487-1bc62dcb927b08b0c81d",
+          "file": "regres_test/POM.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "POM Login error User",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3743,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:27.096Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d79b93a8c074c1834487-aaa552d8f7ea52f6fe7e",
+          "file": "regres_test/POM.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "POM Login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 19,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1470,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:36.931Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d79b93a8c074c1834487-3570a41d305ec9b74ef3",
+          "file": "regres_test/POM.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "POM Login error User",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 24,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 1909,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:39.043Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d79b93a8c074c1834487-fc31783ab7332da3634a",
+          "file": "regres_test/POM.spec.ts",
+          "line": 13,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "screenshots.spec.ts",
+      "file": "screenshots.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Зробити скріншот сторінки логіну",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 1895,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:52.157Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "677a4938ef65bfc6a6e5-3881b136c667a98b7e6a",
+          "file": "screenshots.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Зробити скріншот сторінки логіну",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 3295,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:12.263Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "677a4938ef65bfc6a6e5-8c33891cb17505937bd4",
+          "file": "screenshots.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Зробити скріншот сторінки логіну",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 3247,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:27.391Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "677a4938ef65bfc6a6e5-513f6dcd1c41c82447cc",
+          "file": "screenshots.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Зробити скріншот сторінки логіну",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 21,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2059,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:37.739Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "677a4938ef65bfc6a6e5-57f89f1fcc9ae174067c",
+          "file": "screenshots.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "seed.spec.ts",
+      "file": "seed.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Test group",
+          "file": "seed.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "seed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 293,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T18:22:52.204Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "11ceb7af692008938f3b-e93327a24cf4dbee4058",
+              "file": "seed.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "seed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1528,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T18:23:13.106Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "11ceb7af692008938f3b-a737773906a63d161bed",
+              "file": "seed.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "seed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 1607,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T18:23:27.627Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "11ceb7af692008938f3b-1dd7d8c7f73b28c0acc8",
+              "file": "seed.spec.ts",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "seed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 25,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1106,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T18:23:39.727Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "11ceb7af692008938f3b-e9851f56609be1a52556",
+              "file": "seed.spec.ts",
+              "line": 4,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "smok\\example.spec.ts",
+      "file": "smok/example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1863,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:52.344Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2d80d48244fa9a6a2f00-df02bfa1414be8fd6480",
+          "file": "smok/example.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2048,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:52.562Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2d80d48244fa9a6a2f00-a479bfcb0909e03cebf5",
+          "file": "smok/example.spec.ts",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 3252,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:14.222Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2d80d48244fa9a6a2f00-73973b828fd67b3f806b",
+          "file": "smok/example.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5785,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:14.754Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2d80d48244fa9a6a2f00-3ce01a7eb1d23e5f16f0",
+          "file": "smok/example.spec.ts",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3131,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:27.889Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2d80d48244fa9a6a2f00-c0a605517bb8b82e50dc",
+          "file": "smok/example.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 17,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 5705,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:28.466Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2d80d48244fa9a6a2f00-cb8877beae8718e30696",
+          "file": "smok/example.spec.ts",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 19,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2036,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:38.463Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2d80d48244fa9a6a2f00-f883f43947018223d5bc",
+          "file": "smok/example.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 22,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 2245,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:38.479Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2d80d48244fa9a6a2f00-644a7bdcaf007d3e266f",
+          "file": "smok/example.spec.ts",
+          "line": 10,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "visual.spec.ts",
+      "file": "visual.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Screenshot сторінки товарів",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "failed",
+                  "duration": 2831,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  102 pixels (ratio 0.01 of all image pixels) are different.\n\n  Snapshot: inventory-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(inventory-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - 102 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 102 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  102 pixels (ratio 0.01 of all image pixels) are different.\n\n  Snapshot: inventory-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(inventory-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - 102 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 102 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\n    at C:\\NewQAPL\\tests\\visual.spec.ts:17:22",
+                    "location": {
+                      "file": "C:\\NewQAPL\\tests\\visual.spec.ts",
+                      "column": 22,
+                      "line": 17
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m   \n \u001b[90m 16 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot(\u001b[32m'inventory-page.png'\u001b[39m \u001b[33m,\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m     { mask\u001b[33m:\u001b[39m [page\u001b[33m.\u001b[39mlocator(\u001b[32m'.inventory_item'\u001b[39m)]}\n \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     )\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\NewQAPL\\tests\\visual.spec.ts",
+                        "column": 22,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  102 pixels (ratio 0.01 of all image pixels) are different.\n\n  Snapshot: inventory-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(inventory-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - 102 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 102 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\n\n\u001b[0m \u001b[90m 15 |\u001b[39m   \n \u001b[90m 16 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot(\u001b[32m'inventory-page.png'\u001b[39m \u001b[33m,\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m     { mask\u001b[33m:\u001b[39m [page\u001b[33m.\u001b[39mlocator(\u001b[32m'.inventory_item'\u001b[39m)]}\n \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\NewQAPL\\tests\\visual.spec.ts:17:22\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:53.595Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "inventory-page-expected.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\tests\\visual.spec.ts-snapshots\\inventory-page-chromium-win32.png"
+                    },
+                    {
+                      "name": "inventory-page-actual.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-chromium\\inventory-page-actual.png"
+                    },
+                    {
+                      "name": "inventory-page-diff.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-chromium\\inventory-page-diff.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\NewQAPL\\tests\\visual.spec.ts",
+                    "column": 22,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8324bb52c49185e48ff4-63ae271f49a10e3a787c",
+          "file": "visual.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "Screenshot сторінки товарів",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 5,
+                  "status": "failed",
+                  "duration": 6579,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  85 pixels (ratio 0.01 of all image pixels) are different.\n\n  Snapshot: inventory-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(inventory-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - 85 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 85 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  85 pixels (ratio 0.01 of all image pixels) are different.\n\n  Snapshot: inventory-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(inventory-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - 85 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 85 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\n    at C:\\NewQAPL\\tests\\visual.spec.ts:17:22",
+                    "location": {
+                      "file": "C:\\NewQAPL\\tests\\visual.spec.ts",
+                      "column": 22,
+                      "line": 17
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m   \n \u001b[90m 16 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot(\u001b[32m'inventory-page.png'\u001b[39m \u001b[33m,\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m     { mask\u001b[33m:\u001b[39m [page\u001b[33m.\u001b[39mlocator(\u001b[32m'.inventory_item'\u001b[39m)]}\n \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     )\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\NewQAPL\\tests\\visual.spec.ts",
+                        "column": 22,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  85 pixels (ratio 0.01 of all image pixels) are different.\n\n  Snapshot: inventory-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(inventory-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - 85 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 85 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\n\n\u001b[0m \u001b[90m 15 |\u001b[39m   \n \u001b[90m 16 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot(\u001b[32m'inventory-page.png'\u001b[39m \u001b[33m,\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m     { mask\u001b[33m:\u001b[39m [page\u001b[33m.\u001b[39mlocator(\u001b[32m'.inventory_item'\u001b[39m)]}\n \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\NewQAPL\\tests\\visual.spec.ts:17:22\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:14.770Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "inventory-page-expected.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\tests\\visual.spec.ts-snapshots\\inventory-page-firefox-win32.png"
+                    },
+                    {
+                      "name": "inventory-page-actual.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-firefox\\inventory-page-actual.png"
+                    },
+                    {
+                      "name": "inventory-page-diff.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-firefox\\inventory-page-diff.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-firefox\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-firefox\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-firefox\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\NewQAPL\\tests\\visual.spec.ts",
+                    "column": 22,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8324bb52c49185e48ff4-9f3855a412591b24da97",
+          "file": "visual.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "Screenshot сторінки товарів",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 4,
+                  "status": "failed",
+                  "duration": 6836,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  87 pixels (ratio 0.01 of all image pixels) are different.\n\n  Snapshot: inventory-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(inventory-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - 87 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 87 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  87 pixels (ratio 0.01 of all image pixels) are different.\n\n  Snapshot: inventory-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(inventory-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - 87 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 87 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\n    at C:\\NewQAPL\\tests\\visual.spec.ts:17:22",
+                    "location": {
+                      "file": "C:\\NewQAPL\\tests\\visual.spec.ts",
+                      "column": 22,
+                      "line": 17
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m   \n \u001b[90m 16 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot(\u001b[32m'inventory-page.png'\u001b[39m \u001b[33m,\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m     { mask\u001b[33m:\u001b[39m [page\u001b[33m.\u001b[39mlocator(\u001b[32m'.inventory_item'\u001b[39m)]}\n \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     )\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\NewQAPL\\tests\\visual.spec.ts",
+                        "column": 22,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  87 pixels (ratio 0.01 of all image pixels) are different.\n\n  Snapshot: inventory-page.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(inventory-page.png)\" with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - 87 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 87 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\n\n\u001b[0m \u001b[90m 15 |\u001b[39m   \n \u001b[90m 16 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveScreenshot(\u001b[32m'inventory-page.png'\u001b[39m \u001b[33m,\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m     { mask\u001b[33m:\u001b[39m [page\u001b[33m.\u001b[39mlocator(\u001b[32m'.inventory_item'\u001b[39m)]}\n \u001b[90m 19 |\u001b[39m\n \u001b[90m 20 |\u001b[39m     )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\NewQAPL\\tests\\visual.spec.ts:17:22\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:29.307Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "inventory-page-expected.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\tests\\visual.spec.ts-snapshots\\inventory-page-webkit-win32.png"
+                    },
+                    {
+                      "name": "inventory-page-actual.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-webkit\\inventory-page-actual.png"
+                    },
+                    {
+                      "name": "inventory-page-diff.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-webkit\\inventory-page-diff.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-webkit\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-webkit\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\NewQAPL\\test-results\\visual-Screenshot-сторінки-товарів-webkit\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\NewQAPL\\tests\\visual.spec.ts",
+                    "column": 22,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8324bb52c49185e48ff4-e7226817d983ebe2753a",
+          "file": "visual.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "Screenshot сторінки товарів",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 23,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 2033,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:39.717Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8324bb52c49185e48ff4-6c0b23b9099036cc1d34",
+          "file": "visual.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "visual2.spec.ts",
+      "file": "visual2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Screenshot картки товару",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "failed",
+                  "duration": 2253,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.inventory_item').first()\n  26350 pixels (ratio 0.22 of all image pixels) are different.\n\n  Snapshot: product-card.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(product-card.png)\" locator('.inventory_item').first() with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - waiting for locator('.inventory_item').first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"inventory_item\" data-test=\"inventory-item\">…</div>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\u001b[2m  - 26350 pixels (ratio 0.22 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - waiting for locator('.inventory_item').first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"inventory_item\" data-test=\"inventory-item\">…</div>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 26350 pixels (ratio 0.22 of all image pixels) are different.\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.inventory_item').first()\n  26350 pixels (ratio 0.22 of all image pixels) are different.\n\n  Snapshot: product-card.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(product-card.png)\" locator('.inventory_item').first() with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - waiting for locator('.inventory_item').first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"inventory_item\" data-test=\"inventory-item\">…</div>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\u001b[2m  - 26350 pixels (ratio 0.22 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - waiting for locator('.inventory_item').first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"inventory_item\" data-test=\"inventory-item\">…</div>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 26350 pixels (ratio 0.22 of all image pixels) are different.\u001b[22m\n\n    at C:\\NewQAPL\\tests\\visual2.spec.ts:14:25",
+                    "location": {
+                      "file": "C:\\NewQAPL\\tests\\visual2.spec.ts",
+                      "column": 25,
+                      "line": 14
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m\n \u001b[90m 13 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m   \u001b[36mawait\u001b[39m expect(product)\u001b[33m.\u001b[39mtoHaveScreenshot(\u001b[32m'product-card.png'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\NewQAPL\\tests\\visual2.spec.ts",
+                        "column": 25,
+                        "line": 14
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveScreenshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.inventory_item').first()\n  26350 pixels (ratio 0.22 of all image pixels) are different.\n\n  Snapshot: product-card.png\n\nCall log:\n\u001b[2m  - Expect \"toHaveScreenshot(product-card.png)\" locator('.inventory_item').first() with timeout 5000ms\u001b[22m\n\u001b[2m    - verifying given screenshot expectation\u001b[22m\n\u001b[2m  - waiting for locator('.inventory_item').first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"inventory_item\" data-test=\"inventory-item\">…</div>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\u001b[2m  - 26350 pixels (ratio 0.22 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - waiting for locator('.inventory_item').first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"inventory_item\" data-test=\"inventory-item\">…</div>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    - waiting for element to be stable\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - 26350 pixels (ratio 0.22 of all image pixels) are different.\u001b[22m\n\n\n\u001b[0m \u001b[90m 12 |\u001b[39m\n \u001b[90m 13 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m   \u001b[36mawait\u001b[39m expect(product)\u001b[33m.\u001b[39mtoHaveScreenshot(\u001b[32m'product-card.png'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\NewQAPL\\tests\\visual2.spec.ts:14:25\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:53.876Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "product-card-expected.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\tests\\visual2.spec.ts-snapshots\\product-card-chromium-win32.png"
+                    },
+                    {
+                      "name": "product-card-actual.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual2-Screenshot-картки-товару-chromium\\product-card-actual.png"
+                    },
+                    {
+                      "name": "product-card-diff.png",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual2-Screenshot-картки-товару-chromium\\product-card-diff.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\NewQAPL\\test-results\\visual2-Screenshot-картки-товару-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\NewQAPL\\test-results\\visual2-Screenshot-картки-товару-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\NewQAPL\\test-results\\visual2-Screenshot-картки-товару-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\NewQAPL\\test-results\\visual2-Screenshot-картки-товару-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\NewQAPL\\tests\\visual2.spec.ts",
+                    "column": 25,
+                    "line": 14
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f8a11facb4adb9160173-091759a2629c5cb7ef09",
+          "file": "visual2.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "Screenshot картки товару",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4628,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:14.789Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f8a11facb4adb9160173-c876c2fd6a1efafb3849",
+          "file": "visual2.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "Screenshot картки товару",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 4723,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:30.719Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f8a11facb4adb9160173-2947f7185bad2fa8d75f",
+          "file": "visual2.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "Screenshot картки товару",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 21,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2141,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:39.937Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f8a11facb4adb9160173-11247002796e6755e509",
+          "file": "visual2.spec.ts",
+          "line": 2,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "visualregres.spec.ts",
+      "file": "visualregres.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Зробити скріншот сторінки логіну",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 1608,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:22:54.120Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bd205d97b0bb6278cd10-d845cad7561b8abfc08d",
+          "file": "visualregres.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Зробити скріншот сторінки логіну",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 4110,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:15.669Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bd205d97b0bb6278cd10-f9f1920dcae154c49c4b",
+          "file": "visualregres.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Зробити скріншот сторінки логіну",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2694,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:30.906Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bd205d97b0bb6278cd10-602452097da667f84dff",
+          "file": "visualregres.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Зробити скріншот сторінки логіну",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 19,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1464,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T18:23:40.598Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bd205d97b0bb6278cd10-a0cbb5d4fa389d88cf69",
+          "file": "visualregres.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-29T18:22:44.636Z",
+    "duration": 59893.489,
+    "expected": 53,
+    "skipped": 0,
+    "unexpected": 8,
+    "flaky": 0
+  }
+}

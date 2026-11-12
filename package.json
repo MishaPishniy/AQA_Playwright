@@ -1,0 +1,32 @@
+{
+  "name": "newqapl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:chrome": "playwright test --project=chromium",
+    "test:failed": "playwright test --last-failed",
+    "test:dev": "cross-env TEST_ENV=dev playwright test",
+    "test:stage": "cross-env TEST_ENV=stage playwright test",
+    "test:config": " npx playwright test --config=config/playwright.smoke.config.ts",
+    "test:html": "playwright test --reporter=html",
+    "test:list": "playwright test --reporter=list",
+    "test:json": "playwright test --reporter=json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@testomatio/reporter": "^2.21.0",
+    "@types/node": "^26.6.5",
+    "cross-env": "^10.1.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9"
+  }
+}
