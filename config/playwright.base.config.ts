@@ -1,49 +1,33 @@
-import { defineConfig, devices } from '@playwright/test';
+﻿import { defineConfig } from '@playwright/test';
 import dotenv from 'dotenv';
-import fs from 'fs';
-import path from 'path';
-/**
- * Read environment variables from file.
- * https://github.com/motdotla/dotenv
- See https://playwright.dev/docs/test-configuration.
-*/ 
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { getEnv } from '../utils/env';
 
-const testEnv = process.env.TEST_ENV || 'dev';
-const envPath = path.resolve(
-  process.cwd(),
-  `.env.${testEnv}`
-);
-if (!fs.existsSync(envPath)) {
-  throw new Error(`Configuration file not found: ${envPath}`);
-}
-const result = dotenv.config({
-  path: envPath,
-});
-if (result.error) {
-  throw result.error;
+const projectRoot = fileURLToPath(new URL('../', import.meta.url));
+const environment = process.env.TEST_ENV || 'dev';
+const envPath = path.join(projectRoot, `.env.${environment}`);
+if (fs.existsSync(envPath)) {
+  const result = dotenv.config({ path: envPath, quiet: true });
+  if (result.error) throw result.error;
 }
 
 export default defineConfig({
-  testDir: './tests',
+  testDir: path.join(projectRoot, 'tests'),
   testMatch: ['*.spec.ts'],
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-  reporter: 'html',
+  reporter: [['html', { open: 'never' }]],
   use: {
-     baseURL: process.env.BASE_URL,
-
-    viewport: {
-      width: 1366,
-      height: 768,
-    },
+    baseURL: getEnv('BASE_URL'),
+    viewport: { width: 1366, height: 768 },
+    screenshot: 'only-on-failure',
     trace: 'on-first-retry',
   },
-    expect: {
-    toHaveScreenshot: {
-      animations: 'disabled',
-      maxDiffPixels: 50,
-    },
+  expect: {
+    toHaveScreenshot: { animations: 'disabled', maxDiffPixels: 50 },
   },
 });

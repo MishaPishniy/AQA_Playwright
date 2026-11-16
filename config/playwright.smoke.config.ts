@@ -1,6 +1,11 @@
 import { defineConfig, devices } from '@playwright/test';
+import base from './playwright.base.config';
 
-export default defineConfig({
+export default defineConfig(base, {
+  testMatch: '**/*.@(spec|test).?(c|m)[jt]s?(x)',
+  fullyParallel: false,
+  retries: 0,
+  expect: { toHaveScreenshot: { maxDiffPixels: 0 } },
   testDir: '../tests',
 
   grep: /@smoke/,
@@ -10,7 +15,6 @@ export default defineConfig({
   workers: 2,
 
   use: {
-    baseURL: 'https://www.saucedemo.com/',
 
     ...devices['Desktop Chrome'],
 

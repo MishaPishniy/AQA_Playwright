@@ -1,21 +1,9 @@
+import { test, expect } from "../fixtures/testFixtures";
 
-import { test, expect } from '@playwright/test';
-
-test('Screenshot сторінки товарів', async ({ page }) => {
-  await page.goto('https://www.saucedemo.com/');
-
-  await page.getByPlaceholder('Username').fill('standard_user');
-  await page.getByPlaceholder('Password').fill('secret_sauce');
-
-  await page.getByRole('button', { name: 'Login' }).click();
-
-  await expect(page).toHaveURL(/inventory.html/);
-
-  await page.getByRole('combobox').selectOption('az')
-  
-
-  await expect(page).toHaveScreenshot('inventory-page.png' ,
-    { mask: [page.locator('.inventory_item')]}
-
-    );
+test("Screenshot сторінки товарів", async ({ loginInPage, inventoryPage }) => {
+  await expect(loginInPage).toHaveURL(/\/inventory\.html$/);
+  await inventoryPage.sortDropdown.selectOption("az");
+  await expect(loginInPage).toHaveScreenshot("inventory-page.png", {
+    mask: [inventoryPage.items],
+  });
 });

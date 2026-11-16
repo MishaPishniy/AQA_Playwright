@@ -10,6 +10,6 @@ class Student {
   }
 }
 
-const student = new Student(2);
+const student = new Student('Student');
 
 student.sayHello();

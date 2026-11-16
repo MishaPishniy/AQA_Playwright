@@ -6,3 +6,8 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Local environment files (already tracked files need a separate migration).
+.env
+.env.*
+!.env.example

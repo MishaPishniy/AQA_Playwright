@@ -1,8 +1,7 @@
-import { test, expect } from "@playwright/test";
-import { LoginPage } from "../pages/LoginPage";
+import { test, expect } from "../fixtures/testFixtures";
+import { getEnv } from "../utils/env";
 
-test("Smoke: успішна авторизація @smoke ", async ({ page }) => {
-  const loginPage = new LoginPage(page);
+test("Smoke: успішна авторизація @smoke ", async ({ page, loginPage, inventoryPage, username }) => {
 
   await test.step("Open login page", async () => {
     await loginPage.open();
@@ -10,12 +9,15 @@ test("Smoke: успішна авторизація @smoke ", async ({ page }) =>
 
   await test.step("Login with valid credential", async () => {
     await loginPage.login(
-      process.env.USER_NAME ?? "standard_user",
-      process.env.USER_PASSWORD ?? "secret_sauce",
+      username,
+      getEnv("TEST_PASSWORD"),
     );
   });
 
-  await test.step("'Verify inventory page", async () => {
-    await expect(page).toHaveURL(/inventory.html/);
+  await test.step("Verify inventory page", async () => {
+    await expect(page).toHaveURL(/\/inventory\.html$/);
+    await expect(inventoryPage.title).toHaveText("Products");
+    await expect(inventoryPage.inventoryList).toBeVisible();
+    await expect(loginPage.loginButton).toBeHidden();
   });
 });
